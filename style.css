@@ -39,6 +39,11 @@ body {
     min-height: 80px;
 }
 
+.line-header {
+    opacity: 0.2;
+    border: 1px solid #1F1E1C;
+}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -90,13 +95,19 @@ body {
     margin-right: 50px;
 }
 
+.article-text, .producer-text {
+    margin: 0;
+}
+
 .article-img {
     margin-top: 25px;
     width: 1240px;
     height: 877px;
 }
 
-.info-producer {
+
+
+.info-producer, .performance-variants {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 70px;
@@ -116,10 +127,49 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: #1F1E1C;
+    margin: 0;
 }
 
 .performance-block {
     margin-top: 70px;
     display: grid;
     grid-template-columns: 1fr 835px;
+}
+
+.performance-actors {
+    display: grid;
+    grid-template-columns: 810px 1fr;
+    margin-top: 70px;
+}
+
+.performance-list-actris {
+    right: 50px;
+}
+
+.actor, .actris-image-info {
+    margin-left: 25px;
+}
+
+.actris-image-info-variants, .actor-variants {
+    margin-left: 9px;
+}
+
+.footer-c {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.copywriting {
+    font-size: 14px;
+    line-height: 150%;
+    color: #1F1E1C;
+    margin: 0;
+}
+
+.line {
+    margin-top: 70px;
+    opacity: 0.2;
+    border: 1px solid #1F1E1C;
 }
